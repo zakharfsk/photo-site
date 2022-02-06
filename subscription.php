@@ -1,5 +1,5 @@
 <?php
-const SUBSCRIPTIONS_FILE = '/storage/subscriptions.ser';
+const SUBSCRIPTIONS_FILE = 'storage/subscriptions.ser';
 /**
  * Дістає список із усіх підписок з файлу
  * @return array

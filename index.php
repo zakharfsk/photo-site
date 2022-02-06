@@ -135,23 +135,15 @@
               fill="black" fill-opacity="0.8"/>
     </svg>
     <span class="form-rectangle"></span>
-    <form id="subscription_form">
-        <label>
-            <input class="input-first-name" type="text">
-        </label>
-        <label>
-            <input class="input-last-name" type="text">
-        </label>
-        <label>
-            <input class="input-email" type="email">
-        </label>
-        <label>
-            <input class="input-comment" type="text">
-        </label>
+    <form id="subscription_form" method="post">
+        <input class="input-first-name" type="text" name="first name" required>
+        <input class="input-last-name" type="text" name="last name" required>
+        <input class="input-email" type="email" name="email" required>
+        <input class="input-comment" type="text" name="comment" required>
         <button class="btn-form" type="submit">
             <div class="btn-form-text">Register</div>
         </button>
-    </form >
+    </form>
     <div class="title-form">Sign up for a free account</div>
 </div>
 
@@ -239,39 +231,9 @@
     </div>
 </footer>
 
-<!--<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="-->
-<!--        crossorigin="anonymous"></script>-->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script type="text/javascript">
-    jQuery(document).ready(function ($) {
-        (function initPlayVideo() {
-            let $videoCover = $(".btn-play");
-            let $videoPlayerIframe = $(".video-container");
-            let $videoText = $(".btn-join");
-            let $videoButton = $(".text-container");
-
-            $videoCover.on("click", function () {
-                $videoCover.fadeOut();
-                $videoButton.fadeOut();
-                $videoText.fadeOut();
-                $videoPlayerIframe[0].src += "&autoplay=1";
-            });
-        })();
-    });
-
-
-    let form_fields = document.getElementsByTagName('input')
-    form_fields[0].placeholder = 'First name...';
-    form_fields[1].placeholder = 'Last name...';
-    form_fields[2].placeholder = 'Enter email...';
-    form_fields[3].placeholder = 'Comment...';
-
-
-    for (let field in form_fields) {
-        form_fields[field].className += ' form-control'
-    }
-
-
-</script>
+<script src="src/js/index.js" type="text/javascript"></script>
 </body>
 </html>
