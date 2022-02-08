@@ -1,7 +1,7 @@
 <?php
 session_start();
 require 'auth.php';
-require 'subscription.php';
+require 'src/subscription.php';
 // Авторизуємо користувача, якщо в запиті є логін і пароль
 if (isset($_POST['login']) && isset($_POST['password'])) {
     login($_POST['login'], $_POST['password']);

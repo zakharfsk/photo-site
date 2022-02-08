@@ -7,19 +7,11 @@ a {
     color: black;
 }
 
-#burger {
-    position: relative;
-    width: 31px;
-    height: 25px;
-}
-
-
-
 .nav {
     /* Navigation C */
 
     position: absolute;
-    width: 1355px;
+    width: 100%;
     height: 60px;
     left: 0px;
     top: 0px;
@@ -878,7 +870,7 @@ button {
 .footer {
     position: absolute;
     width: 100%;
-    height: 489px;
+    height: 400px;
     left: 0px;
     top: 2929px;
 
@@ -1088,4 +1080,105 @@ button {
     position: absolute !important;
     left: 50%;
     top: 10px;
+}
+
+.main-content-community {
+    position: absolute;
+    width: 1519px;
+    height: 1053px;
+    left: 0px;
+    top: 63px;
+
+    background: #FFFFFF;
+}
+
+.general-text-community {
+    position: absolute;
+    width: 750px;
+    height: 144px;
+    left: 80px;
+    top: 42px;
+
+    /* Sub-page H1 */
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    /* or 150% */
+
+    letter-spacing: -0.015em;
+
+    color: #000000;
+}
+
+.user-container-1 {
+    position: absolute;
+    width: 560px;
+    height: 373px;
+    left: 80px;
+    top: 216px;
+}
+
+.user-container-2 {
+    position: absolute;
+    width: 560px;
+    height: 373px;
+    left: 902px;
+    top: 216px;
+}
+
+.new-1 {
+    top: 618px !important;
+}
+
+.new-2 {
+    top: 618px !important;
+    left: 906px !important;
+}
+
+.user-container-1-text-desc {
+    position: absolute;
+    width: 686px;
+    height: 90px;
+    left: 80px;
+    top: 516px;
+
+    /* Body P */
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    letter-spacing: -0.015em;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.user-container-1-text-title {
+    position: absolute;
+    width: 686px;
+    height: 36px;
+    left: 80px;
+    top: 456px;
+
+    /* Body H4 */
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: -0.015em;
+
+    color: #000000;
+}
+
+.photo-user-container {
+    width:200px;
+    height:200px;
+    position:absolute;
 }

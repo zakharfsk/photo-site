@@ -5,5 +5,5 @@ require 'auth.php';
 
 logout();
 
-header('Location: login.php');
+header('Location: index.php');
 

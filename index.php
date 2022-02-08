@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php require 'header.php'; ?>
+<link rel="stylesheet" href="src/css/styles.css">
 <body>
 
 <?php require 'navbar.php'; ?>
