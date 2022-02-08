@@ -1,11 +1,19 @@
 html {
-    font-family: Montserrat, sans-serif;
+    font-family: Montserrat, sans-serif !important;
 }
 
 a {
     text-decoration: none;
     color: black;
 }
+
+#burger {
+    position: relative;
+    width: 31px;
+    height: 25px;
+}
+
+
 
 .nav {
     /* Navigation C */
@@ -1074,4 +1082,10 @@ button {
     letter-spacing: -0.015em;
 
     color: rgba(0, 0, 0, 0.8);
+}
+
+.drop {
+    position: absolute !important;
+    left: 50%;
+    top: 10px;
 }
